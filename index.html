@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="container animated-border">
+      <h1 class="app-title">
+        <img
+          style="width: 32px; height: 32px"
+          src="./weather-app.png"
+          alt="Weather Icon"
+        />
+        Ob-havo ma'lumoti
+      </h1>
+      <div class="search-box">
+        <input type="text" id="cityInput" placeholder="Shaharni kiriting..." />
+        <button id="searchBtn">Qidirish</button>
+      </div>
+      <div class="weather-info" id="weatherInfo"></div>
+      <p id="errorMessage"></p>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
